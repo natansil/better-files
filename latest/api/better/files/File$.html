@@ -194,6 +194,10 @@
                         <a class="class" href="Implicits$ReaderOps.html" title=""></a>
                         <a href="Implicits$ReaderOps.html" title="">ReaderOps</a>
                       </li><li class="current-entities indented2">
+                        <span class="separator"></span>
+                        <a class="object" href="Resource$.html" title="Class to encapsulate resource related APIs See: https://stackoverflow.com/questions/3861989/preferred-way-of-loading-resources-in-java"></a>
+                        <a href="Resource$.html" title="Class to encapsulate resource related APIs See: https://stackoverflow.com/questions/3861989/preferred-way-of-loading-resources-in-java">Resource</a>
+                      </li><li class="current-entities indented2">
                         <a class="object" href="Scannable$.html" title=""></a>
                         <a class="trait" href="Scannable.html" title="Implement this trait to make thing parsable In most cases, use Scanner.Read typeclass when you simply need access to one String token Use Scannable typeclass if you need access to the full scanner e.g."></a>
                         <a href="Scannable.html" title="Implement this trait to make thing parsable In most cases, use Scanner.Read typeclass when you simply need access to one String token Use Scannable typeclass if you need access to the full scanner e.g.">Scannable</a>
@@ -680,24 +684,6 @@ e.g. it's last component is removed when it is used as an anchor.
     </span>)</span>
               
         </dd></dl></div>
-    </li><li name="better.files.File#copyResource" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="copyResource(name:String)(destination:better.files.File):destination.type"></a><a id="copyResource(String)(File):destination.type"></a>
-      <span class="permalink">
-      <a href="../../better/files/File$.html#copyResource(name:String)(destination:better.files.File):destination.type" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">def</span>
-      </span>
-      <span class="symbol">
-        <span class="name">copyResource</span><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="params">(<span name="destination">destination: <a href="File.html" class="extype" name="better.files.File">File</a> = <span class="defval" name='<span class="name"><a href="">File.newTemporaryFile(prefix = name)</a></span>'>...</span></span>)</span><span class="result">: <span class="extype" name="better.files.File.copyResource.destination">destination</span>.type</span>
-      </span>
-      
-      <p class="shortcomment cmt">Copies a resource into a file
-</p><div class="fullcomment"><div class="comment cmt"><p>Copies a resource into a file
-</p></div><dl class="paramcmts block"><dt class="param">destination</dt><dd class="cmt"><p>File where resource is copied into, if not specified a temp file is created</p></dd></dl></div>
     </li><li name="better.files.File#currentWorkingDirectory" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="currentWorkingDirectory:better.files.File"></a><a id="currentWorkingDirectory:File"></a>
       <span class="permalink">
@@ -940,25 +926,6 @@ e.g. it's last component is removed when it is used as an anchor.
       </span>
       
       
-    </li><li name="better.files.File#resource" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="resource(name:String):better.files.File"></a><a id="resource(String):File"></a>
-      <span class="permalink">
-      <a href="../../better/files/File$.html#resource(name:String):better.files.File" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">def</span>
-      </span>
-      <span class="symbol">
-        <span class="name">resource</span><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <a href="File.html" class="extype" name="better.files.File">File</a></span>
-      </span>
-      
-      <p class="shortcomment cmt">Get a file from a resource
-Note: Use resourceToFile instead as this may not actually always load the file
-See: http://stackoverflow.com/questions/676250/different-ways-of-loading-a-file-as-an-inputstream
-</p>
     </li><li name="better.files.File#root" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="root:better.files.File"></a><a id="root:File"></a>
       <span class="permalink">

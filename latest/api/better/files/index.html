@@ -194,6 +194,10 @@
                         <a class="class" href="Implicits$ReaderOps.html" title=""></a>
                         <a href="Implicits$ReaderOps.html" title="">ReaderOps</a>
                       </li><li class="current-entities indented2">
+                        <span class="separator"></span>
+                        <a class="object" href="Resource$.html" title="Class to encapsulate resource related APIs See: https://stackoverflow.com/questions/3861989/preferred-way-of-loading-resources-in-java"></a>
+                        <a href="Resource$.html" title="Class to encapsulate resource related APIs See: https://stackoverflow.com/questions/3861989/preferred-way-of-loading-resources-in-java">Resource</a>
+                      </li><li class="current-entities indented2">
                         <a class="object" href="Scannable$.html" title=""></a>
                         <a class="trait" href="Scannable.html" title="Implement this trait to make thing parsable In most cases, use Scanner.Read typeclass when you simply need access to one String token Use Scannable typeclass if you need access to the full scanner e.g."></a>
                         <a href="Scannable.html" title="Implement this trait to make thing parsable In most cases, use Scanner.Read typeclass when you simply need access to one String token Use Scannable typeclass if you need access to the full scanner e.g.">Scannable</a>
@@ -1331,22 +1335,6 @@ Note: It uses java.net.charset.Charset.DefaultCharset() in general but if the De
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="Scanner$$Source$$Implicits.html" class="extype" name="better.files.Scanner.Source.Implicits">Implicits</a></dd></dl></div>
-    </li><li name="better.files#resourceAsStream" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="resourceAsStream(name:String,bufferSize:Int):java.io.InputStream"></a><a id="resourceAsStream(String,Int):InputStream"></a>
-      <span class="permalink">
-      <a href="../../better/files/index.html#resourceAsStream(name:String,bufferSize:Int):java.io.InputStream" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">def</span>
-      </span>
-      <span class="symbol">
-        <span class="name">resourceAsStream</span><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="bufferSize">bufferSize: <span class="extype" name="scala.Int">Int</span> = <span class="symbol"><span class="name"><a href="#DefaultBufferSize:Int">DefaultBufferSize</a></span></span></span>)</span><span class="result">: <span class="extype" name="java.io.InputStream">InputStream</span></span>
-      </span>
-      
-      <p class="shortcomment cmt">If bufferSize is set to less than or equal to 0, we don't buffer</p>
     </li><li name="better.files.Scanner.Read.Implicits#shortRead" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="shortRead:better.files.Scanner.Read[Short]"></a><a id="shortRead:Read[Short]"></a>
       <span class="permalink">
@@ -1689,6 +1677,24 @@ val readLocalDate: Read[LocalDate] = Read.temporalQuery(format = myFormat, query
       </span>
       
       <p class="shortcomment cmt">A sink outputstream similar to /dev/null - just consumes everything
+</p>
+    </li><li name="better.files.Resource" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Resource"></a><a id="Resource:Resource"></a>
+      <span class="permalink">
+      <a href="../../better/files/index.html#Resource" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a title="Class to encapsulate resource related APIs See: https://stackoverflow.com/questions/3861989/preferred-way-of-loading-resources-in-java" href="Resource$.html"><span class="name">Resource</span></a>
+      </span>
+      
+      <p class="shortcomment cmt">Class to encapsulate resource related APIs
+See: https://stackoverflow.com/questions/3861989/preferred-way-of-loading-resources-in-java
 </p>
     </li><li name="better.files.Scannable" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="Scannable"></a><a id="Scannable:Scannable"></a>
